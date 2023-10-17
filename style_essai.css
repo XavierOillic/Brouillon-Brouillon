@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(233, 233, 234);
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: center;
+}
+container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+header {
+  display: flex;
+  height: auto;
+  padding-left: 18%;
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 0px 10px;
+}
+#charte button {
+  font-size: 10px;
+}
+h1 {
+  text-align: left;
+}
+p h1 h2 h3 h4 {
+  font-family: Arial;
+  font-size: 10px;
+}
+ul {
+  list-style-image: url(images/bullet.png);
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  /*padding: 30px;*/
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  padding: auto;
+}
+#titreh3 {
+  font-size: 30px;
+  font-family: "Arial";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+#paragraphe {
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+}
+
+#charte {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bouton_rouge_haut {
+  display: flex;
+  float: right;
+}
+button {
+  background-color: rgb(225, 53, 53);
+  color: aliceblue;
+  font-size: 15px;
+  font-size: 15px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#charte button {
+  font-size: 10px;
+}
+
+.bouton_rouge_bas button {
+  font-size: 10px;
+}
+.differentes_regles {
+  /* margin-top: 70px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 20px;
+}
+.code_js {
+  background-color: rgb(192, 192, 204);
+  border-radius: 10px;
+  padding: 15px;
+  border: solid 1px;
+}
+.bouton_rouge_bas {
+  padding-left: 45%;
+  display: flex;
+  margin: auto;
+}
+.bouton_rouge_bas button {
+  font-size: 10px;
+}
